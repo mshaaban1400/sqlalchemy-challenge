@@ -6,7 +6,7 @@ I've decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To 
 
 #### Part 1: Analyze and Explore the Climate Data
 
-In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, I used SQLAlchemy ORM queries, Pandas, and Matplotlib. I completed the following steps:
+In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, I used SQLAlchemy ORM queries, Pandas, and Matplotlib. I completed the following steps:
 
 1. I used the provided files (`climate_starter.ipynb` and `hawaii.sqlite`) to complete my climate analysis and data exploration.
 
@@ -42,13 +42,13 @@ In this section, I used Python and SQLAlchemy to do a basic climate analysis and
 
     * List the stations and observation counts in descending order.
 
-    > **Hint** You’ll need to use the `func.count` function in your query.
+    > **Hint** I’ll need to use the `func.count` function in my query.
 
     * Answer the following question: which station id has the greatest number of observations?
 
 3. Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
 
-    > **Hint** You’ll need to use functions such as `func.min`, `func.max`, and `func.avg` in your query.
+    > **Hint** I’ll need to use functions such as `func.min`, `func.max`, and `func.avg` in my query.
 
 4. Design a query to get the previous 12 months of temperature observation (TOBS) data. To do so, complete the following steps:
 
@@ -60,11 +60,11 @@ In this section, I used Python and SQLAlchemy to do a basic climate analysis and
 
       ![A screenshot depicts the histogram.](https://static.bc-edx.com/data/dl-1-2/m10/lms/img/station-histogram.jpg)
 
-5. Close your session.
+5. Close the session.
 
-#### Part 2: Design Your Climate App
+#### Part 2: Design my Climate App
 
-Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
+Now that I’ve completed my initial analysis, I’ll design a Flask API based on the queries that I just developed. To do so, use Flask to create my routes as follows:
 
 1. `/`
 
@@ -74,9 +74,9 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 
 2. `/api/v1.0/precipitation`
 
-    * Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using `date` as the key and `prcp` as the value.
+    * Convert the query results from my precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using `date` as the key and `prcp` as the value.
 
-    * Return the JSON representation of your dictionary.
+    * Return the JSON representation of the dictionary.
 
 3. `/api/v1.0/stations`
 
